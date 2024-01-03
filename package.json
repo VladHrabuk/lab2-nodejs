@@ -2,7 +2,7 @@
   "name": "lab2_node",
   "version": "1.0.0",
   "description": "lab2",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,8 @@
     "lint:fix": "eslint . --fix",
     "format": "npx prettier . --check",
     "format:fix": "npx prettier . --write",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
